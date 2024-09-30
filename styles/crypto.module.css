@@ -1,0 +1,54 @@
+.container {
+  padding: 20px;
+
+}
+
+.searchBar {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  color: wheat;
+  background-color: rgb(10, 9, 9);
+  
+}
+
+.headerCell {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  text-align: left;
+  background-color: rgb(30, 30, 30);
+  border-bottom: 1px solid wheat;
+  
+}
+
+.cell {
+  padding: 10px 20px;
+  font-size: 1rem;
+  text-align: left;
+  border-bottom: 1px solid wheat;
+}
+
+.nameCell {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.row:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}

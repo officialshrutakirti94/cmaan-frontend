@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "target": "es6", // Target ECMAScript 2015 (ES6) or later
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ], // Include ESNext for modern JS features
+    "allowJs": true, // Allow JavaScript files in TypeScript project
+    "skipLibCheck": true, // Skip type checking of declaration files
+    "esModuleInterop": true, // Compatibility with ES6/CommonJS modules
+    "allowSyntheticDefaultImports": true, // Allow default imports for modules without them
+    "strict": true, // Enable strict type checking
+    "forceConsistentCasingInFileNames": true, // Ensure consistent file name casing
+    "module": "esnext", // Target module code generation
+    "moduleResolution": "node", // Use Node.js module resolution
+    "resolveJsonModule": true, // Allow importing JSON files
+    "isolatedModules": true, // Treat each file as a separate module
+    "jsx": "preserve", // Set JSX mode for React
+    "baseUrl": ".", // Base directory for resolving paths
+    "paths": {
+      "@/*": [
+        "src/*"
+      ] // Alias `@` to the `src` directory
+    },
+    "noEmit": true,
+    "incremental": true
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

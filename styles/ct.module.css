@@ -1,0 +1,70 @@
+.header{
+    margin-top: -10rem;
+    font-size: 2.8rem;
+    color: white;
+    font-weight: bold;
+}
+
+.wrapper{
+    padding: 3rem;
+}
+
+.sub_wrapper{
+    display: flex;
+    gap: 2rem;
+}
+
+.cardWrapper{
+    margin-top: 2rem;
+    display: flex;
+    gap: 2rem;
+    margin-left: 5rem;
+    color: white;
+}
+.cards h2{
+    justify-content: center;
+    text-align: center;
+    margin-top: 3.5rem;
+    font-size: 2rem;
+}
+.cards{
+    width: 24rem;
+    height: 18rem;
+    border-radius: 0.5rem;
+    background: rgb(94,62,156);
+    background: radial-gradient(circle, rgba(94,62,156,1) 0%, rgba(44,20,107,1) 18%);
+    box-shadow: 0 0 15px 5px #190b35; /* Add vibrant blue shadow */
+}
+
+.pic{
+    margin-top: -10rem;
+}
+
+.abt{
+    width: 52rem;
+    font-size: 1.8rem;
+}
+
+@media (max-width: 768px) {
+    .cardWrapper{
+        flex-direction: column;
+        margin-left: -2rem;
+    }
+    .header{
+        margin-top: -10rem;
+        font-size: 2rem;
+    }
+    .sub_wrapper{
+        flex-direction: column;
+    }
+    .pic{
+        order: 1;
+    }
+    .abt{
+        width: 30rem;
+        font-size: 1.3rem;
+    }
+    
+    
+    
+}

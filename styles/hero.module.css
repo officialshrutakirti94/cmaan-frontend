@@ -1,0 +1,45 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center;     /* Center content horizontally */
+    text-align: center;
+    height: 100vh;           /* Full viewport height for vertical centering */
+    padding: 0 1rem;         /* Optional: add padding if needed */
+    margin-top: -6rem;
+}
+
+.header {
+    background: linear-gradient(90deg, #FF3BFF 0%, #b100cd 38.02%, #5C24FF 75.83%, #D94FD5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 5rem;
+    font-weight:bold;
+    margin-bottom: 2rem; /* Space between header and button */
+    font-family: "Raleway", sans-serif;
+}
+
+.btn {
+    height: 2.5rem;
+    border-radius: 2rem;
+    padding: 1.5rem;
+    color: white;
+    background-color: black;
+    border: 2px solid #FF3BFF;
+    cursor: pointer; /* Makes it clear that it's clickable */
+    /* Optional: additional styling for button */
+}
+
+@media (max-width: 768px) {
+    .header{
+        width: 100vw;
+        font-size: 3.5rem;
+        margin-top: -7rem;
+       margin-left: 2rem;
+    }
+    /* .hero{
+        margin-left: 10rem;
+    } */
+     
+}
